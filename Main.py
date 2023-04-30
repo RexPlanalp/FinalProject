@@ -15,7 +15,7 @@ CreatePlot(x,psi_dens,"images/Psi_Dens.jpg")
 PSI,PSI_dens,PSI_real,PSI_imag = CreateCNTimeEvol(x,t,psi_0,V)
 
 print(PSI_dens.shape)
-CreatePlot(x,PSI_dens[:,1000],"images/Psi_Dens_Evolved.jpg")
+CreatePlot(x,PSI_dens[:,4000],"images/Psi_Dens_Evolved.jpg")
 
 
 
