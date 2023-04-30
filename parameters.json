@@ -1,0 +1,20 @@
+{
+    "psi_0" : "gaussian",
+    "gauss_param": [
+        {
+            "b" : 0.5,
+            "p_0" : 10
+        }
+    ],
+    
+    "potential":"barrier",
+    "barrier_param": [
+        {
+            "center" : 3,
+            "width" : 0.01,
+            "height" : 1000000
+        }
+    ]
+       
+    
+}
