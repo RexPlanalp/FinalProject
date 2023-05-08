@@ -1,0 +1,29 @@
+{
+    "psi_0" : "gaussian",
+    "gauss_param": [
+        {
+            "b" : 0.5,
+            "p_0" : 70,
+            "center" : 0
+        }
+    ],
+    
+    "potential":"None",
+    "barrier_param": [
+        {
+            "center" : 0,
+            "width" : 2,
+            "height" : 1800,
+            "sign" : "1"
+        }
+    ],
+    "harmonic_param": [
+        {
+            "omega" : 0.2,
+            "center" : 0
+        }
+    ],
+    "prop":"CN_4th",
+    "time":"real"
+    
+} 
